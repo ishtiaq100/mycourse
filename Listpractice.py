@@ -1,3 +1,4 @@
+#list are mutable we can change the value of list
 mobile = ['samsung',37.5,45000,True]
 mobile.append("china")
 mobile.insert(2,30.9)
