@@ -96,6 +96,3 @@ from sklearn import metrics
 r2 = metrics.r2_score(y_test,predection)
 meanabsoluteerror = metrics.mean_absolute_error(y_test,predection)
 meansqureerror = metrics.mean_squared_error(y_test,predection)
-print(f"R square error : {r2:.4f}")
-print(f"Mean Absoulte error : {meanabsoluteerror:.4f}")
-print(f"Root mean squere error :{meansqureerror:.4f}")
